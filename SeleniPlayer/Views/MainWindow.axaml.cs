@@ -1,4 +1,7 @@
+using Avalonia;
 using Avalonia.Controls;
+using SeleniPlayer.Entities;
+using SeleniPlayer.ViewModels;
 
 namespace SeleniPlayer.Views;
 

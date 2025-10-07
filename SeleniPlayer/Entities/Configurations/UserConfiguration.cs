@@ -12,7 +12,7 @@ namespace SeleniPlayer.Entities.Configurations
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

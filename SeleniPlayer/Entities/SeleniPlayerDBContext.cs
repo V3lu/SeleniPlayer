@@ -24,5 +24,14 @@ namespace SeleniPlayer.Entities
             base.OnModelCreating(modelBuilder);
 
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                // Example: SQLite
+                optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=SeleniPlayerDB;Trusted_Connection=True;");
+            }
+        }
     }
 }

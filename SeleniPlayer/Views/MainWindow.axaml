@@ -9,4 +9,5 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="SeleniPlayer">
         <views:MainView />
+  <Window.DataContext><vm:MainViewModel/></Window.DataContext>
 </Window>
